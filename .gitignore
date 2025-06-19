@@ -158,6 +158,7 @@ Desktop.ini
 *.temp
 
 *.txt
+!requirements.txt
 
 *.md
 # not README.md
