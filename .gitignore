@@ -156,3 +156,9 @@ Desktop.ini
 # Temporary files
 *.tmp
 *.temp
+
+*.txt
+
+*.md
+# not README.md
+!README.md
