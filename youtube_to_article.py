@@ -107,7 +107,7 @@ if __name__ == "__main__":
 
         prompt = f"""
 
-Please write a detailed article using the following transcript: 
+Please write a very detailed article using the following transcript: 
 
 
 <transcript>
@@ -115,6 +115,9 @@ Please write a detailed article using the following transcript:
 </transcript>
 
 Please stick to the transcript and don't add any other information.
+
+It should cover all topics and  fundamental details of the video (only enough to compose a blog post).
+
 DONT MAKE UP ANYTHING, JUST USE THE TRANSCRIPT.
 
 
@@ -125,6 +128,8 @@ Please return the article in markdown format. ONLY THE ARTICLE, NO OTHER TEXT/CO
 
 If it is a video about a recipe, or a tutorial, add the the recipe or the steps in the article in a separate section including the quantity of each ingredient (or proportion ).
 
+
+It should have a blog post style. I will be using it to generate a blog post.
 
         """
 
