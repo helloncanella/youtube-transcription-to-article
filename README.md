@@ -1,6 +1,6 @@
 # YouTube to Article
 
-This tool downloads a YouTube video, transcribes its audio, and generates a detailed article from the transcript using an LLMi (OpenAI GPT-4.1).
+This tool downloads a YouTube video, transcribes its audio, and generates a detailed article from the transcript using an LLM (OpenAI GPT-4.1, by default).
 
 ## Requirements
 
